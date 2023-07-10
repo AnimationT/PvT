@@ -1,0 +1,51 @@
+html {
+    background: #F1F1F1;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .cImage {
+    width: 75px;
+    height: 75px; /* Adjusted height */
+    border-radius: 50%;
+    border: 4px solid #292929;
+  }
+  
+  #pewdsStuff {
+    display: inline-block;
+    margin-right: 30px;
+    background: #f5f5f5;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px
+  }
+  
+  #tseriesStuff {
+    display: inline-block;
+    margin-left: 30px;
+    background: #f5f5f5;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px
+  }
+  
+  .odometer {
+    font-size: 50px;
+  }
+  
+  .choose {
+    border: none;
+    color: white;
+    background: #292929;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 12px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .choose:focus {
+    background: #b8b8b8;
+  }
+  
